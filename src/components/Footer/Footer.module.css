@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  background-color: #4D5160;
+  gap: 1.5rem;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom__links {
+  display: flex;
+  gap: 1.2rem;
+  font-size: .9rem;
+}

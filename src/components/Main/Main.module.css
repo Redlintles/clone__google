@@ -1,0 +1,84 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+  flex-direction: column;
+}
+
+.main-logo svg {
+  fill: white;
+  transform: scale(1.1);
+}
+
+.main-form {
+  width: 70%;
+  max-width: 700px;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.main-form > form{
+  display: flex;
+  align-items: center;
+  background-color: #4D5160;
+  justify-content: center;
+  border-radius: 40px;
+  height: 3.25rem;
+  padding: .5rem 1rem;
+  width: 100%;
+}
+
+.main-form > form > input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  background-color: #4D5160;
+  
+}
+
+.main-form > form > button {
+  background-color: transparent;
+  font-size: 1.2rem;
+  margin: 0 .5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.main-form__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main-form__buttons > button {
+  padding: .75rem 1.25rem;
+  font-size: 1rem;
+  background-color: #4D5160;
+  border: none;
+  cursor: pointer;
+}
+.main-form__buttons > button:hover {
+  outline: 1px solid white;;
+}
+
+.main-footer {
+  font-size: .9rem;
+}
+
+.main-footer > p a {
+  color: deepskyblue;
+  margin: 0 .5rem;
+}
+
+.main-footer > p a:hover {
+  text-emphasis: underline;
+}
+
