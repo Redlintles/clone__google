@@ -49,6 +49,12 @@
   margin: 0 .5rem;
   border: none;
   cursor: pointer;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
 }
 
 .main-form__buttons {
@@ -64,9 +70,10 @@
   background-color: #4D5160;
   border: none;
   cursor: pointer;
+  color: gray;
 }
 .main-form__buttons > button:hover {
-  outline: 1px solid white;;
+  outline: 1px solid gray;
 }
 
 .main-footer {
